@@ -1,6 +1,7 @@
 # fileserver
 A file server, which allows the following operations - put, get, delete, search for files
 FileId is a Long number, representing unique file content identifier.
+The folder for files is declared in application.properties file as long as the path to file with exisiting files - catalogue.
 
 # GET
 HTTP GET  request to localhost:8080/{fileId}
